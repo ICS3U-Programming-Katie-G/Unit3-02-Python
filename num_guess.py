@@ -14,8 +14,9 @@ import num_guess_constants
 # to the user.
 def main():
     # getting the user's guess.
-    user_guess = int(input("Guess my favorite number from 0 - 9 :)"
-                           "I bet you won't get it :) "))
+    user_guess = int(
+        input("Guess my favorite number from 0 - 9 :) I bet you won't get it :) ")
+    )
 
     # check to see if user guess is correct.
     if user_guess == num_guess_constants.CORRECT_NUM:
